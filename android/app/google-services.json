@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "198634850862",
+    "firebase_url": "https://uberclone-38a72.firebaseio.com",
+    "project_id": "uberclone-38a72",
+    "storage_bucket": "uberclone-38a72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198634850862:android:1bd29b0ec0220d1b2c2dbf",
+        "android_client_info": {
+          "package_name": "com.example.uberclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198634850862-5f6b9mtge356q7n76t7ot0ut5nocqb4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uberclone",
+            "certificate_hash": "ddd9c8381398c292a38f7b351d5d3f82f09fba4e"
+          }
+        },
+        {
+          "client_id": "198634850862-b61h1dfgi2v6tff2hk0e8jh269lktjiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzfRmxNbLV2V6ZIHY2jvavGRKgYtOLqv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198634850862-b61h1dfgi2v6tff2hk0e8jh269lktjiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
