@@ -21,6 +21,9 @@ class AppState with ChangeNotifier {
   Set<Marker> get markers => _markers;
   Set<Polyline> get polyLines => _polyLines;
 
+  TextEditingController get _locationController => locationController;
+  TextEditingController get _destinationController => destinationController;
+
   AppState() {
     _getUserLocation();
     _loadingInitialPosition();

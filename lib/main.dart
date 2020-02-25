@@ -3,18 +3,12 @@ import 'package:provider/provider.dart';
 import 'package:uberclone/screens/home.dart';
 import 'package:uberclone/states/app_state.dart';
 
-// void main() {
-//   return runApp(MultiProvider(
-//     providers: [
-//       ChangeNotifierProvider.value(
-//         value: AppState(),
-//       )
-//     ],
-//     child: MyApp(),
-//   ));
-// }
-
-void main() => runApp(MyApp());
+void main() {
+  return runApp(MultiProvider(
+    providers: [ChangeNotifierProvider(create: (_) => new AppState())],
+    child: MyApp(),
+  ));
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
